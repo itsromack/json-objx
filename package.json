@@ -1,0 +1,31 @@
+{
+  "name": "json-objx",
+  "version": "1.0.0",
+  "description": "Extend JSON with support for executable stringified functions: JSON.objx()",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.js"
+    }
+  },
+  "keywords": [
+    "json",
+    "eval",
+    "function",
+    "parser",
+    "utility",
+    "stringified-functions"
+  ],
+  "author": "Romack L. Natividad",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsromack/json-objx"
+  },
+  "scripts": {
+    "test": "node test.js"
+  }
+}
+
