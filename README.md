@@ -1,17 +1,20 @@
-# json-objx
-A lightweight JavaScript utility that extends the built-in JSON object with the method JSON.objx, enabling conversion of JSON-like objects with stringified functions into fully executable JavaScript objects.
+# 📦 json-objx
 
-✅ How to Use
-In Node.js or Bun:
-bash
-Copy
-Edit
+A lightweight JavaScript utility that extends the built-in `JSON` object with the method `JSON.objx`, enabling conversion of JSON-like objects with stringified functions into fully executable JavaScript objects.
+
+---
+
+## ✅ How to Use
+
+### In Node.js or Bun:
+
+```bash
 npm install json-objx
 # or
 bun add json-objx
-js
-Copy
-Edit
+
+## ES Modules (ESM)
+
 import objx from 'json-objx';
 
 const obj = objx({
@@ -19,10 +22,9 @@ const obj = objx({
 });
 
 console.log(obj.add(1, 2)); // 3
-Or using CommonJS:
-js
-Copy
-Edit
+
+## Common JS
+
 const objx = require('json-objx');
 
 const obj = objx({
