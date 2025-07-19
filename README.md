@@ -12,9 +12,10 @@ A lightweight JavaScript utility that extends the built-in `JSON` object with th
 npm install json-objx
 # or
 bun add json-objx
+```
 
 ## ES Modules (ESM)
-
+```bash
 import objx from 'json-objx';
 
 const obj = objx({
@@ -22,9 +23,11 @@ const obj = objx({
 });
 
 console.log(obj.add(1, 2)); // 3
+```
 
 ## Common JS
 
+```bash
 const objx = require('json-objx');
 
 const obj = objx({
@@ -32,4 +35,5 @@ const obj = objx({
 });
 
 console.log(obj.factorial(5)); // 120
+```
 
